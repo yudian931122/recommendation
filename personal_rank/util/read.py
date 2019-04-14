@@ -2,7 +2,7 @@
 """
 author: Yu
 date: 20190413
-get graph form user data
+数据处理
 """
 
 import os
