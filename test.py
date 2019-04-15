@@ -1,11 +1,9 @@
 import numpy as np
+import pandas as pd
 
-a = np.matrix([[1, 2, 3], [2, 3, 4], [1, 3, 5]])
+pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
-norm_a = np.linalg.norm(a, axis=1).reshape(3, -1)
+names = ['userid', 'itemid', 'rating', 'timestamp']
+data = pd.read_csv("content_based/data/ratings.dat", sep="::", header=None, names=names)
 
-print(norm_a)
-
-print(norm_a @ norm_a.T)
-
-print((a @ a.T) / (norm_a @ norm_a.T))
+print(len(data['userid'].unique()))

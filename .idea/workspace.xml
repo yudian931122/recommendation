@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5248ff3-ba35-43f0-91e1-b8652ff6631a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/item2vec/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/data/item_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/data/movies.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/data/ratings.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/model/Item2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item2vec/util/read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_based/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_based/model/ContentBased.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_based/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_based/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_based/util/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_rank/util/read.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_rank/util/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item2vec/data/movies.dat" beforeDir="false" afterPath="$PROJECT_DIR$/content_based/data/movies.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item2vec/data/ratings.dat" beforeDir="false" afterPath="$PROJECT_DIR$/content_based/data/ratings.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +25,32 @@
     <SUITE FILE_PATH="coverage/recommendation$PersonalRank.coverage" NAME="PersonalRank Coverage Results" MODIFIED="1555140945162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/model" />
     <SUITE FILE_PATH="coverage/recommendation$PersonalRankMatrix.coverage" NAME="PersonalRankMatrix Coverage Results" MODIFIED="1555211829826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/model" />
     <SUITE FILE_PATH="coverage/recommendation$read__1_.coverage" NAME="read (1) Coverage Results" MODIFIED="1555226518795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/item2vec/util" />
-    <SUITE FILE_PATH="coverage/recommendation$read.coverage" NAME="read Coverage Results" MODIFIED="1555135031214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/util" />
-    <SUITE FILE_PATH="coverage/recommendation$test.coverage" NAME="test Coverage Results" MODIFIED="1555234984152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/recommendation$read.coverage" NAME="read Coverage Results" MODIFIED="1555299668988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/content_based/util" />
+    <SUITE FILE_PATH="coverage/recommendation$test.coverage" NAME="test Coverage Results" MODIFIED="1555310905803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/recommendation$mat_util.coverage" NAME="mat_util Coverage Results" MODIFIED="1555144302598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/util" />
+    <SUITE FILE_PATH="coverage/recommendation$ContentBased.coverage" NAME="ContentBased Coverage Results" MODIFIED="1555311518307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/content_based/model" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="read.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item2vec/util/read.py">
+      <file leaf-file-name="read.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="671">
+              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+              <folding>
+                <element signature="e#61#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item2vec.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/item2vec/model/Item2vec.py">
+      <file leaf-file-name="ContentBased.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            <state relative-caret-position="1999">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
               <folding>
-                <element signature="e#92#126#0" expanded="true" />
+                <element signature="e#62#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,17 +59,20 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="movies.dat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item2vec/data/movies.dat">
+        <entry file="file://$PROJECT_DIR$/content_based/data/movies.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65858">
-              <caret line="3874" column="28" selection-start-line="3874" selection-start-column="22" selection-end-line="3874" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="1541" column="20" selection-start-line="1541" selection-start-column="20" selection-end-line="1541" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -79,6 +85,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>595</find>
+      <find>989</find>
+      <find>3245</find>
+      <find>53</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -95,8 +109,11 @@
         <option value="$PROJECT_DIR$/personal_rank/model/PersonalRankMatrix.py" />
         <option value="$PROJECT_DIR$/personal_rank/util/read.py" />
         <option value="$PROJECT_DIR$/item2vec/util/read.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/item2vec/model/Item2vec.py" />
+        <option value="$PROJECT_DIR$/lfm/model/LFM.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/content_based/model/ContentBased.py" />
+        <option value="$PROJECT_DIR$/content_based/util/read.py" />
       </list>
     </option>
   </component>
@@ -109,8 +126,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
+  <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="1400" />
   </component>
@@ -132,6 +148,23 @@
             <path>
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
               <item name="item2vec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,29 +183,6 @@
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
               <item name="item2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_rank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_rank" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_rank" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_rank" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -186,10 +196,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_data\recommendation\content_based\data" />
+      <recent name="D:\git_data\recommendation\lfm\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_data\recommendation\lfm\model" />
+      <recent name="D:\git_data\recommendation\lfm\util" />
       <recent name="$PROJECT_DIR$/item2vec/data" />
     </key>
   </component>
@@ -205,7 +221,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Item2vec">
+  <component name="RunManager" selected="Python.ContentBased">
+    <configuration name="ContentBased" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recommendation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/content_based/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/content_based/model/ContentBased.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Item2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,44 +260,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PersonalRankMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="recommendation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personal_rank/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personal_rank/model/PersonalRankMatrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mat_util" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="recommendation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/personal_rank/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personal_rank/util/mat_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="read (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,6 +274,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/item2vec/util/read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recommendation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/content_based/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/content_based/util/read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,19 +318,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.mat_util" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.PersonalRankMatrix" />
       <item itemvalue="Python.read (1)" />
       <item itemvalue="Python.Item2vec" />
+      <item itemvalue="Python.read" />
+      <item itemvalue="Python.ContentBased" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Item2vec" />
+        <item itemvalue="Python.ContentBased" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.read" />
+        <item itemvalue="Python.Item2vec" />
         <item itemvalue="Python.read (1)" />
-        <item itemvalue="Python.PersonalRankMatrix" />
-        <item itemvalue="Python.mat_util" />
       </list>
     </recent_temporary>
   </component>
@@ -329,26 +345,33 @@
       <option name="presentableId" value="Default" />
       <updated>1555127868991</updated>
     </task>
+    <task id="LOCAL-00001" summary="lfm 隐因子分解模型实现">
+      <created>1555293464830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555293464830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="1080" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039744" side_tool="true" weight="0.3013067" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35286784" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960256" visible="true" weight="0.31906614" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3532787" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41011673" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,6 +379,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,14 +389,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="lfm 隐因子分解模型实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="lfm 隐因子分解模型实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/content_based/model/ContentBased.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>round(user_profile[userid][index][1] / total_score, 3)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>user_profile[userid][index][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/item2vec/util/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/data/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85228">
+          <caret line="3874" column="28" selection-start-line="3874" selection-start-column="22" selection-end-line="3874" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item2vec/model/Item2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="e#92#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personal_rank/model/PersonalRank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -384,9 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#88#123#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding>
-            <element signature="e#74#119#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,13 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/encodings/ascii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/encodings/ascii.py" />
     <entry file="file://$PROJECT_DIR$/personal_rank/data/movies.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-602">
@@ -422,27 +487,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/BasicModel.py" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/coo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="310" column="62" lean-forward="true" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/linalg/isolve/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/coo.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/linalg/isolve/utils.py" />
     <entry file="file://$PROJECT_DIR$/personal_rank/model/PersonalRankMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-383">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#74#119#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#88#123#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,57 +524,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item2vec/data/item_sequences.dat">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/gensim/models/word2vec.py" />
+    <entry file="file://$PROJECT_DIR$/item2vec/model/mymodel" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/gensim/models/deprecated/keyedvectors.py" />
+    <entry file="file://$PROJECT_DIR$/lfm/model/LFM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19567" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="917" column="8" selection-start-line="917" selection-start-column="8" selection-end-line="917" selection-end-column="8" />
+        <state relative-caret-position="-1675">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#64#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item2vec/data/movies.dat">
+    <entry file="file://$PROJECT_DIR$/lfm/util/read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65858">
-          <caret line="3874" column="28" selection-start-line="3874" selection-start-column="22" selection-end-line="3874" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item2vec/model/mymodel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2067" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/gensim/models/deprecated/keyedvectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4689">
-          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item2vec/util/read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#69#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item2vec/model/Item2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        <state relative-caret-position="439">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
             <element signature="e#92#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item2vec/util/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item2vec/data/item_sequences.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/data/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-208482">
+          <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/data/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="1541" column="20" selection-start-line="1541" selection-start-column="20" selection-end-line="1541" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1999">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#62#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+          <folding>
+            <element signature="e#61#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
