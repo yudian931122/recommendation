@@ -12,6 +12,7 @@ from collections import Counter
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.metrics import roc_auc_score
 from sklearn.preprocessing import PolynomialFeatures
+from sklearn.utils import shuffle
 
 
 def train_lr_model(input_file):
