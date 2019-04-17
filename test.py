@@ -1,9 +1,8 @@
 import numpy as np
 import pandas as pd
 
-pd.set_option('display.float_format', lambda x: '%.3f' % x)
+d = {'a':1, 'b':2}
 
-names = ['userid', 'itemid', 'rating', 'timestamp']
-data = pd.read_csv("content_based/data/ratings.dat", sep="::", header=None, names=names)
+values = d.values()
 
-print(len(data['userid'].unique()))
+print(list(values)[0])

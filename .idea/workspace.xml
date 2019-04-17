@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5248ff3-ba35-43f0-91e1-b8652ff6631a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/content_based/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_based/model/ContentBased.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_based/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_based/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_based/util/read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/data/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/data/bank-additional-full.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/model/LR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr/util/feature_engineering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recommendation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recommendation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item2vec/data/movies.dat" beforeDir="false" afterPath="$PROJECT_DIR$/content_based/data/movies.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item2vec/data/ratings.dat" beforeDir="false" afterPath="$PROJECT_DIR$/content_based/data/ratings.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,35 +23,52 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/recommendation$Item2vec.coverage" NAME="Item2vec Coverage Results" MODIFIED="1555236446858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/item2vec/model" />
     <SUITE FILE_PATH="coverage/recommendation$PersonalRank.coverage" NAME="PersonalRank Coverage Results" MODIFIED="1555140945162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/model" />
+    <SUITE FILE_PATH="coverage/recommendation$feature_engineering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1555413910504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lr/util" />
     <SUITE FILE_PATH="coverage/recommendation$PersonalRankMatrix.coverage" NAME="PersonalRankMatrix Coverage Results" MODIFIED="1555211829826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/model" />
     <SUITE FILE_PATH="coverage/recommendation$read__1_.coverage" NAME="read (1) Coverage Results" MODIFIED="1555226518795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/item2vec/util" />
     <SUITE FILE_PATH="coverage/recommendation$read.coverage" NAME="read Coverage Results" MODIFIED="1555299668988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/content_based/util" />
-    <SUITE FILE_PATH="coverage/recommendation$test.coverage" NAME="test Coverage Results" MODIFIED="1555310905803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/recommendation$test.coverage" NAME="test Coverage Results" MODIFIED="1555414433375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/recommendation$LR.coverage" NAME="LR Coverage Results" MODIFIED="1555416603121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lr/model" />
     <SUITE FILE_PATH="coverage/recommendation$mat_util.coverage" NAME="mat_util Coverage Results" MODIFIED="1555144302598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/personal_rank/util" />
     <SUITE FILE_PATH="coverage/recommendation$ContentBased.coverage" NAME="ContentBased Coverage Results" MODIFIED="1555311518307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/content_based/model" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="read.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
+      <file leaf-file-name="bank-additional-full.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lr/data/bank-additional-full.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+            <state relative-caret-position="-2332">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lr/data/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LR.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lr/model/LR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
-                <element signature="e#61#92#0" expanded="true" />
+                <element signature="e#63#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentBased.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
+      <file leaf-file-name="validation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/utils/validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1999">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
-              <folding>
-                <element signature="e#62#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="234" selection-start-line="234" selection-end-line="234" />
             </state>
           </provider>
         </entry>
@@ -59,20 +76,11 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="154">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movies.dat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_based/data/movies.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="1541" column="20" selection-start-line="1541" selection-start-column="20" selection-end-line="1541" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -92,6 +100,8 @@
       <find>989</find>
       <find>3245</find>
       <find>53</find>
+      <find>print</find>
+      <find>pre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,9 +121,12 @@
         <option value="$PROJECT_DIR$/item2vec/util/read.py" />
         <option value="$PROJECT_DIR$/item2vec/model/Item2vec.py" />
         <option value="$PROJECT_DIR$/lfm/model/LFM.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/content_based/model/ContentBased.py" />
         <option value="$PROJECT_DIR$/content_based/util/read.py" />
+        <option value="$PROJECT_DIR$/lr/data/README" />
+        <option value="$PROJECT_DIR$/lr/util/feature_engineering.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/lr/model/LR.py" />
       </list>
     </option>
   </component>
@@ -126,7 +139,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1280" />
     <option name="width" value="1280" />
     <option name="height" value="1400" />
   </component>
@@ -148,41 +162,24 @@
             <path>
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+              <item name="lr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+              <item name="lr" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="content_based" type="462c0819:PsiDirectoryNode" />
+              <item name="lr" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="item2vec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="item2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="item2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommendation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="item2vec" type="462c0819:PsiDirectoryNode" />
+              <item name="lr" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -196,17 +193,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git_data\recommendation\content_based\data" />
-      <recent name="D:\git_data\recommendation\lfm\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_data\recommendation\lr\data" />
       <recent name="D:\git_data\recommendation\lfm\model" />
       <recent name="D:\git_data\recommendation\lfm\util" />
       <recent name="$PROJECT_DIR$/item2vec/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_data\recommendation\content_based\data" />
+      <recent name="D:\git_data\recommendation\lfm\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ContentBased">
+  <component name="RunManager" selected="Python.LR">
     <configuration name="ContentBased" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,7 +239,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Item2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,18 +247,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/item2vec/model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lr/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/item2vec/model/Item2vec.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lr/model/LR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="read (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="feature_engineering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/item2vec/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lr/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/item2vec/util/read.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lr/util/feature_engineering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,18 +317,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.read (1)" />
-      <item itemvalue="Python.Item2vec" />
       <item itemvalue="Python.read" />
       <item itemvalue="Python.ContentBased" />
+      <item itemvalue="Python.LR" />
+      <item itemvalue="Python.feature_engineering" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ContentBased" />
+        <item itemvalue="Python.LR" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.feature_engineering" />
+        <item itemvalue="Python.ContentBased" />
         <item itemvalue="Python.read" />
-        <item itemvalue="Python.Item2vec" />
-        <item itemvalue="Python.read (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,34 +350,40 @@
       <option name="project" value="LOCAL" />
       <updated>1555293464830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="content based 实现">
+      <created>1555312704196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555312704196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="0" width="1280" height="1400" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039744" side_tool="true" weight="0.3013067" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960256" visible="true" weight="0.31906614" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3532787" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960256" weight="0.50428015" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26848248" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24590164" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840466" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3295082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41011673" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41011673" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +394,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lfm 隐因子分解模型实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="lfm 隐因子分解模型实现" />
+    <MESSAGE value="content based 实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="content based 实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,7 +406,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -419,6 +424,64 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lr/data/bank-additional-full.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/data/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/model/LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#62#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/data/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33902">
+          <caret line="1541" column="20" selection-start-line="1541" selection-start-column="20" selection-end-line="1541" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item2vec/util/read.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -444,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-          <folding>
-            <element signature="e#92#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1675">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#64#82#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#69#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="e#92#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item2vec/data/item_sequences.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/content_based/data/ratings.dat">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="-208482">
@@ -574,12 +622,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="22">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#62#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -591,22 +646,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content_based/model/ContentBased.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1999">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="483">
+          <caret line="3422" column="58" lean-forward="true" selection-start-line="3422" selection-start-column="58" selection-end-line="3422" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/core/algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="437" column="4" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft_ware/anaconda/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5339">
+          <caret line="2072" column="4" selection-start-line="2072" selection-start-column="4" selection-end-line="2072" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/data/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/data/bank-additional-full.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2332">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="3613" selection-start-line="3613" selection-end-line="3613" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/util/feature_engineering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="233" column="15" selection-start-line="233" selection-start-column="15" selection-end-line="233" selection-end-column="15" />
           <folding>
-            <element signature="e#62#93#0" expanded="true" />
+            <element signature="e#63#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content_based/util/read.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/imblearn/over_sampling/_smote.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+        <state relative-caret-position="197">
+          <caret line="821" column="39" selection-start-line="821" selection-start-column="39" selection-end-line="821" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="2072" column="4" selection-start-line="2072" selection-start-column="4" selection-end-line="2072" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#61#92#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr/model/LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
