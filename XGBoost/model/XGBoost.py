@@ -14,6 +14,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.model_selection import GridSearchCV
 from scipy.sparse import coo_matrix
+from collections import Counter
 
 
 def data_product(input_file):
@@ -36,9 +37,13 @@ def data_product(input_file):
     y = data['y']
     X = data.drop('y', axis=1)
 
+    print(data[data['y'] == 0]['y'].count())
+    print(data[data['y'] == 1]['y'].count())
+
     # 使用过采用平衡正负样本
     smote = SMOTE(random_state=24)
     X, y = smote.fit_sample(X, y)
+    print(Counter(y))
 
     # 数据集切分
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=24, test_size=0.3)
@@ -174,7 +179,7 @@ def train_xgboost_lr_model(train_data, test_data, X_train, X_test, y_train, y_te
 
 
 if __name__ == '__main__':
-    data_path = '../data/processed_data.csv'
+    data_path = '../data/processed_data_no_fill.csv'
     train_data, test_data, X_train, X_test, y_train, y_test = data_product(data_path)
 
     # 单独的xgboost和xgboost+lr模型效果对比

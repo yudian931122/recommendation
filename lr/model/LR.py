@@ -60,7 +60,6 @@ def train_lr_model(input_file):
 
     print(X.shape)
     smote = SMOTE(random_state=24)
-
     X, y = smote.fit_sample(X, y)
     # 查看SMOTE之后的数据比例
     print(Counter(y))

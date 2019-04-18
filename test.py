@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-d = {'a':1, 'b':2}
+df = pd.DataFrame([['yes'], ['no']], columns=['label'])
+print(df)
 
-values = d.values()
-
-print(list(values)[0])
+print("*" * 20)
+print(df['label'].apply(lambda x: "yes" in x).astype(int))
